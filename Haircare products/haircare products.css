@@ -1,0 +1,90 @@
+body{
+    background-color: #a6798fe9; 
+     font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: #a6798f;
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #6a1f44;
+        border-radius: 10px;
+    }
+
+.btn button{
+    width: 80%;
+    border-radius: 80px;
+    border: none;
+    background: linear-gradient(to left,#965f7965 30%, #6a1f44 50%) right;width: 160px; 
+    border-radius: 20px;
+    background-size: 250%;
+    transition: .6s ease-in;
+   color: white;
+    height: 35px;
+}
+.btn button:hover{
+   color: #c393ab;
+    background-position: left;
+    padding: 5px;
+}
+.btn{
+    border: none;
+}
+.card{
+    border: none;
+    background-color: #a6798f;
+   
+    box-shadow: 10px 7px 20px #6a1f44 ;
+
+}
+.img{
+
+    /* filter: drop-shadow(15px 8px 15px rgb(176, 137, 137)); */
+}
+.a1{
+    padding: 10px;
+}
+.a2{
+    padding: 90px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+
+nav ul li{
+    margin-top: 0%;
+    display: inline-block;
+    margin-top: 30px;
+   
+    
+}
+li a{
+    
+    text-decoration: none;
+    padding-left: 30px; color: #f7f7f7;font-size: 15px;} 
+.a{
+
+padding-top: 15px;
+
+padding-left:100px; }
+
+.purplebg{background: linear-gradient(to left,#965f7965 30%, #6a1f44 50%) right;width: 130px; margin-left: 50px; margin-top: 50px;
+    border-radius: 20px;
+    background-size: 250%;
+    transition: .6s ease-in;
+  
+padding: 5px;
+}
+.purplebg:hover{
+  
+    background-position: left;
+    padding: 5px;
+}
